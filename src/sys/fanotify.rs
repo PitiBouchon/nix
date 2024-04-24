@@ -101,8 +101,6 @@ libc_bitflags! {
         /// Remove the limit of 8192 marks.
         FAN_UNLIMITED_MARKS;
 
-        /// Make `FanotifyEvent::pid` return pidfd. Since Linux 5.15.
-        FAN_REPORT_PIDFD;
         /// Make `FanotifyEvent::pid` return thread id. Since Linux 4.20.
         FAN_REPORT_TID;
     }
